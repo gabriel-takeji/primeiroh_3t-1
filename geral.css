@@ -1,11 +1,38 @@
 .calculadora {
     padding: 10px;
-    background: rgb(175, 94, 94);
+    background: indigo;
     width: 200px;
+    border-radius: 20px;
+}
+.calculadora input {
+    background: black;
+    color: red;
+    border-radius: 10px;
+    height: 25px;
+}
+.spResultado{
+    background: black;
+    color: red;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15px;
 }
 
 #btnCalc {
     width: 50px;
     padding: 5px;
-    background: rgb(79, 148, 88);
+    background: white;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+#btnCalc:hover {
+    background: red;
+    color: black; 
+    cursor: ne-resize;  
+}
+.listamensal {
+    padding: 10px;
+    background: indigo;
+    width: 200px;
+    border-radius: 20px;
 }
